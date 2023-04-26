@@ -15,7 +15,7 @@ function App() {
     getData().then((result) => {
       const data = result.data;
       setAllCountriesList(data);
-      // setIsLoading(false);
+      setIsLoading(false);
     });
   }, []);
   // filtered list state
